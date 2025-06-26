@@ -9,7 +9,7 @@ dotenv.config();
 const app = express();
 
 app.use(cors({
-  origin: 'http://localhost:5173',
+  origin: 'https://authorization-six-mocha.vercel.app',
   credentials: true
 }));
 app.use(express.json());
